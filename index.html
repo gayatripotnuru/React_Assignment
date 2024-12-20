@@ -17,11 +17,9 @@
 <script src="App.js" ></script>
 <script>
     // Using javascript Dom to print hello world
-    var h2 = document.createElement("h2");
-        h2.innerHTML = "Hello World with JavaScript";
+    const rootElement = document.getElementById("js");
+rootElement.innerHTML = `<h2>Hello World with JavaScript</h2>`;
 
-        var rootElement = document.getElementById("js");
-        rootElement.appendChild(h2);
 </script>
 </body>
 
